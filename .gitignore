@@ -1,0 +1,17 @@
+# 모든 폴더의 bin 디렉토리 제외
+bin/
+**/bin/
+
+# 모든 폴더의 .settings 디렉토리 제외
+.settings/
+**/.settings/
+
+# 이클립스 개별 설정 파일들
+.classpath
+.project
+**/.classpath
+**/.project
+
+# 메타데이터 및 로그
+.metadata/
+*.log
